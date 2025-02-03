@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adicionar Acompanhamentos à Música</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Acc.css') }}">
+  
+<style>
+  
+</style>
+
+</head>
+<body>
+    <h1>Adicionar Acompanhamentos à Música</h1>
+    <input type="file" id="audioFile" accept=".mp3,.wav">
+    <button id="gerarAcompanhamentos">Gerar Acompanhamentos</button>
+    <div id="loading" style="display: none;">Processando...</div>
+
+    <h2>Resultado</h2>
+    <audio id="audioOriginal" controls></audio>
+    <audio id="audioAcompanhamento" controls></audio>
+    <audio id="audioMixado" controls></audio>
+
+    <button id="baixarMixado">Baixar Música Mixada</button>
+    <button id="baixarAcompanhamento">Baixar Acompanhamento</button>
+
+    <script src="{{ url_for('static', filename='Acc.js') }}"></script>
+</body>
+</html>
