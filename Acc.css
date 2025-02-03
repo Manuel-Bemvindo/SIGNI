@@ -1,0 +1,66 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o input de arquivo */
+input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Estilo para os elementos de áudio */
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Estilo para a mensagem de carregamento */
+#loading {
+    display: none;
+    color: #007bff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilo para a seção de resultado */
+#resultado {
+    margin-top: 20px;
+}
+
+/* Estilo para os botões de download */
+#baixarMixado, #baixarAcompanhamento {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+#baixarMixado:hover, #baixarAcompanhamento:hover {
+    background-color: #218838;
+}
